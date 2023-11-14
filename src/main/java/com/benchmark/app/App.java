@@ -7,9 +7,10 @@ import sun.misc.BASE64Encoder;
  * Hello world!
  *
  */
-public class App 
+public class App
 {
     public static void main( String[] args ){
+        System.out.println(com.mycompany.app.App.add(1,2));
         System.out.println("Encoded: " + encode());
     }
 
