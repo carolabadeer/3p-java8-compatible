@@ -13,5 +13,6 @@ public class AppTest
         String encoded = App.encode();
         assertEquals(encoded, "SGVsbG8sIFdvcmxkIQ==");
         System.out.println("This unit test verifies 3p dependency functionality - no 1p verification");
+
     }
 }
