@@ -10,7 +10,7 @@ public class App
         System.out.println("Java 17 incompatible 1p dependency: " + call1pDependency());
     }
   
-    public static void call1pDependency() {
+    public static int call1pDependency() {
       return com.mycompany.app.App.add(1,2);
     }
 
