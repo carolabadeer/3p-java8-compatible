@@ -1,6 +1,7 @@
 package com.benchmark.app;
 
 import org.junit.Test;
+import org.junit.Assert;
 
 public class AppTest 
 {
@@ -11,7 +12,7 @@ public class AppTest
          * This unit test verifies 3p dependency functionality - no 1p verification
          */
         String encoded = App.encode();
-        assertEquals(encoded, "SGVsbG8sIFdvcmxkIQ==");
+        Assert.assertEquals(encoded, "SGVsbG8sIFdvcmxkIQ==");
         System.out.println("Hello World");
     }
 
